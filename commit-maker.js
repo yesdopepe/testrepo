@@ -2,6 +2,8 @@ import fs from "fs";
 import moment from "moment";
 import { execSync } from "child_process"
 import _ from "lodash"
+import inquirer from "inquirer"
+
 
 
 export default class CommitMaker{
